@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
-from __future__ import unicode_literals
+from django.http import HttpResponse
 
-from django.shortcuts import render
+HttpResponse()
+
+def index(request):
+    return HttpResponse("Hello, world. How are you? Avia.")
 
 # Create your views here.
